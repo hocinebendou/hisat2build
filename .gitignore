@@ -1,0 +1,26 @@
+.vagrant
+.DS_Store
+
+# editor temp files
+.*.sw?
+
+#bioinformatics stuff
+*.fa
+*.fastq
+*.fasta
+*.ht2
+#archives
+*.bz2
+*.gz
+*.zip
+*.tar
+*.Z
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed

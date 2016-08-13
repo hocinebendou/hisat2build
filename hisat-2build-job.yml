@@ -1,0 +1,11 @@
+reference_in:
+  - class: File
+    path: data/reference/22_20-21M.fa
+snps:
+  class: File
+  path: data/reference/22_20-21M.snp
+no_auto_depend:
+  no_auto: true
+  b_max: 5
+exclusive_bitpacking:
+  pack: true

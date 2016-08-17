@@ -5,6 +5,9 @@ class: CommandLineTool
 
 requirements:
   - class: InlineJavascriptRequirement
+  - class: EnvVarRequirement
+    envDef:
+      HISAT2_INDEXES: /full/path/to/generated/index/files
 
 inputs:
   across:

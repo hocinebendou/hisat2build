@@ -1,0 +1,12 @@
+hisat2_idx: "index"
+
+file_format:
+  fasta: true
+
+exclusive_reads:
+  mate_1:
+    - class: File
+      path: /cip0/research/hocine/examples/workflows/hisat-build/data/reads/reads_1.fa
+  mate_2:
+    - class: File
+      path: /cip0/research/hocine/examples/workflows/hisat-build/data/reads/reads_2.fa
